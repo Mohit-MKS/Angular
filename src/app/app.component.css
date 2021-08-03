@@ -1,0 +1,24 @@
+.container-fluid{
+	display: flex; 
+	justify-content: space-evenly; 
+	padding-top: 60px;
+	flex-wrap: wrap;
+}
+form{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px 10px 10px;
+}
+table{
+	width: 60%;
+}
+tr{
+	height: 0;
+}
+
+@media only screen and (max-width:991px){
+	table{
+		width: 100%;
+	}
+}
